@@ -52,7 +52,7 @@ All experiments are conducted on a single **NVIDIA RTX 5060 Ti (16 GB)**.
 
 At a fixed step count, the tile-masked trainer is **~0.25 dB lower PSNR** and **0.041 lower SSIM** than the baseline. Crucially, applying tile masking on top of **MCMC** yields the **best PSNR (22.10 dB)** and **fastest render latency (12.1 ms/image)** of any method evaluated.
 
-![Training dynamics vs wall-clock time](tensorboardfigs.jpeg)
+![Training dynamics vs wall-clock time](media/tensorboardfigs.jpeg)
 
 *Training dynamics for baseline (blue) and Tile-Masked (grey) on **Flowers**. The masked trainer reduces loss faster per unit time early on but asymptotes to a higher loss floor.*
 
